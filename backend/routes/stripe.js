@@ -49,8 +49,8 @@ router.post("/payment", async (req, res) => {
       },
       line_items,
       mode: "payment",
-      success_url: process.env.CLIENT_URL + "/successorder",
-      cancel_url: process.env.CLIENT_URL + "/cart?success=false",
+      success_url: "https://trendz-beta.vercel.app/" + "/successorder",
+      cancel_url: "https://trendz-beta.vercel.app/" + "/cart?success=false",
     });
     res.status(200).json(session);
   } catch (err) {

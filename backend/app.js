@@ -18,7 +18,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://trendz-vercel-api.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );

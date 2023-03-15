@@ -18,8 +18,10 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "https://trendz-vercel-api.vercel.app/",
+    allowedHeaders: "*",
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
 );
 app.use(bodyParser.json());

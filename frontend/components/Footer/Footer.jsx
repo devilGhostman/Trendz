@@ -16,9 +16,10 @@ const Footer = () => {
           </div>
         </h1>
         <p className=" mt-1 mb-4 text-[gray]">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+          You can spruce up your style with the right clothing.<b>Trendz</b> is
+          home to some of the best cloths for men, for kids, and for women.
+          Brands such as Wrangler, Levi’s, Lee, W, Peter England, and U.S. Polo
+          Assn have a wide selection of chinos, jeans, shorts, and more.
         </p>
         <div className="flex">
           <div className="w-10 h-10 text-[white] flex items-center justify-center mr-5 rounded-[50%] bg-[#3B5999]">
@@ -62,7 +63,7 @@ const Footer = () => {
               <div className="flex  my-2 items-center">
                 <ApartmentIcon style={{ marginRight: "10px", color: "gray" }} />
                 <div className="text-[gray]">
-                  622 Dixie Path, South Tobinchester 98336
+                  621/B, 12th Main, Hal II Stage, Indranagar, Bengaluru
                 </div>
               </div>
               <div className="flex my-2 items-center">
@@ -70,12 +71,12 @@ const Footer = () => {
                   style={{ marginRight: "10px", color: "gray" }}
                 />
                 <div className="text-[gray]">
-                  <span>+1 234 56 78</span>
+                  <span>+91 8882834719</span>
                 </div>
               </div>
               <div className="flex  my-2 items-center">
                 <EmailIcon style={{ marginRight: "10px", color: "gray" }} />
-                <div className="text-[gray]">contact@lama.dev</div>
+                <div className="text-[gray]">contact@Trendz</div>
               </div>
             </div>
           </div>

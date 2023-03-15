@@ -38,7 +38,7 @@ const Cart = () => {
     } else {
       try {
         await axios
-          .post("http://localhost:5000/api/checkout/payment", {
+          .post("https://trendz-vercel-api.vercel.app/api/checkout/payment", {
             products,
           })
           .then((resp) => {

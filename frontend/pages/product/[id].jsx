@@ -31,7 +31,7 @@ const Product = () => {
     const getProduct = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/products/find/${id}`
+          `https://trendz-vercel-api.vercel.app/api/products/find/${id}`
         );
         setProduct(res.data);
         setColor(res.data.color[0]);

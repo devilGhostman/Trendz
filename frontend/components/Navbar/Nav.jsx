@@ -35,7 +35,9 @@ const Nav = () => {
   const router = useRouter();
 
   const getProductsdata = async () => {
-    const res = await axios.get("http://localhost:5000/api/products");
+    const res = await axios.get(
+      "https://trendz-vercel-api.vercel.app/api/products"
+    );
     setProducts(res.data);
     setLoading(false);
   };
@@ -47,7 +49,7 @@ const Nav = () => {
   const getSearchData = async (qsearch) => {
     console.log(qsearch);
     const res = await axios.get(
-      `http://localhost:5000/api/products?search=${qsearch}`
+      `https://trendz-vercel-api.vercel.app/api/products?search=${qsearch}`
     );
     console.log(res.data);
     setFilteredData(res.data);

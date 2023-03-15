@@ -20,7 +20,7 @@ const register = () => {
     };
 
     axios
-      .post("http://localhost:5000/api/auth/register", userData)
+      .post("https://trendz-vercel-api.vercel.app/api/auth/register", userData)
       .then((res) => console.log(res.data))
       .catch((error) => console.log(error))
       .then(() => setStatus(true))

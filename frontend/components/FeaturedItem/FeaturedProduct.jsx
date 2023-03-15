@@ -9,7 +9,9 @@ const FeaturedProduct = () => {
   const [isLoading, setLoading] = useState(false);
 
   const getProductsdata = async () => {
-    const res = await axios.get("http://localhost:5000/api/products");
+    const res = await axios.get(
+      "https://trendz-vercel-api.vercel.app/api/products"
+    );
     setProductsdata(res.data);
     setLoading(false);
   };

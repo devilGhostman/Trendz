@@ -12,8 +12,8 @@ const SimilarItem = ({ type }) => {
   const getProductsdata = async () => {
     const res = await axios.get(
       type
-        ? `http://localhost:5000/api/products?category=${type}`
-        : "http://localhost:5000/api/products"
+        ? `https://trendz-vercel-api.vercel.app/api/products?category=${type}`
+        : "https://trendz-vercel-api.vercel.app/api/products"
     );
     setProductsdata(res.data);
     setLoading(false);

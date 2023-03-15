@@ -12,8 +12,8 @@ const Products = ({ categoryid, filters, sort }) => {
       try {
         const res = await axios.get(
           categoryid
-            ? `http://localhost:5000/api/products?category=${categoryid}`
-            : "http://localhost:5000/api/products?new=true"
+            ? `https://trendz-vercel-api.vercel.app/api/products?category=${categoryid}`
+            : "https://trendz-vercel-api.vercel.app/api/products?new=true"
         );
         setProducts(res.data);
       } catch (err) {}

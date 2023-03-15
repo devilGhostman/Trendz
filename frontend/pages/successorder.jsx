@@ -27,7 +27,7 @@ const successorder = () => {
     try {
       const res = await axios
         .post(
-          "http://localhost:5000/api/orders",
+          "https://trendz-vercel-api.vercel.app/api/orders",
           {
             userId: currentUser._id,
             products: productsItem.map((item) => ({

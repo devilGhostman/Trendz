@@ -9,7 +9,7 @@ const SimilaritemCard = ({ product }) => {
         query: { id: product._id },
       }}
     >
-      <div className="w-[190px] md:w-[230px] flex flex-col gap-y-2.5 mb-[50px] border-2 hover:shadow-[0px_15px_15px_rgba(224,224,224,0.75)]">
+      <div className="w-[163px] sm:w-[190px] md:w-[230px] flex flex-col gap-y-2.5 mb-[50px] border-2 hover:shadow-[0px_15px_15px_rgba(224,224,224,0.75)]">
         <div className=" w-full h-[320px] overflow-hidden relative border-2 group">
           <img
             className="mainImg w-full h-full object-cover absolute z-[1] "

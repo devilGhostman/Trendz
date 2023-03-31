@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 const Products = ({ categoryid, filters, sort }) => {
+  console.log(categoryid);
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
 
@@ -48,7 +49,7 @@ const Products = ({ categoryid, filters, sort }) => {
     }
   }, [sort]);
   return (
-    <div className="flex flex-wrap justify-between p-5">
+    <div className="flex flex-wrap justify-between p-0 sm:p-5">
       {categoryid
         ? filteredProducts
             .slice(0, 14)

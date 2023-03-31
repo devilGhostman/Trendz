@@ -142,7 +142,7 @@ const Nav = () => {
           <div className="">
             <div className="flex items-center ml-[5px] md:ml-[25px] p-[5px] border-[0.5px] border-solid  border-[lightgray]">
               {filteredData.length === 0 ? (
-                <Search className="text-[#7a7a7a] text-[20px] mx-4 hover:text-[white] " />
+                <Search className="text-[#7a7a7a] text-[20px] sm:mx-4 hover:text-[white] " />
               ) : (
                 <ClearIcon
                   className="text-[#7a7a7a] text-[20px] mx-4 hover:text-[white] hover:cursor-pointer"

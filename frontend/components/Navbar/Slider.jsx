@@ -13,7 +13,7 @@ const Slider = () => {
   };
 
   return (
-    <div className=" w-full md:h-[60vh] lg:h-[70vh] lg:mt-7 mt-[180px]  md:flex relative overflow-hidden">
+    <div className=" w-full md:h-[60vh] lg:h-[70vh] lg:mt-7 mt-[50px]   md:flex relative overflow-hidden">
       <div className="w-fit flex absolute gap-2.5 m-auto bottom-[10px] lg:inset-x-0 right-3 z-10">
         <div
           className="w-[60px] h-[50px] border flex items-center justify-center cursor-pointer border-solid border-[#999] text-[#aaa]"

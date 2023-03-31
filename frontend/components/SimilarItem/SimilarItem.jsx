@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 import axios from "axios";
-import FeaturedCard from "../FeaturedItem/FeaturedCard";
 import SimilaritemCard from "./SimilaritemCard";
 
 const SimilarItem = ({ type }) => {

@@ -54,11 +54,9 @@ const FeaturedProduct = () => {
       <div className="flex flex-wrap justify-between p-1 ">
         {productsdata
           .filter((product) => product.onSale == "true")
-          .map(
-            (product) => (
-              console.log(product), (<FeaturedCard product={product} />)
-            )
-          )}
+          .map((product) => (
+            <FeaturedCard product={product} />
+          ))}
       </div>
     </div>
   );

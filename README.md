@@ -1,4 +1,6 @@
 # Trendz
+![trendz](https://user-images.githubusercontent.com/82955240/233841426-31269040-ad19-4c72-9d15-80f565b2c3cc.png)
+
 ## Demo - [LIVE](https://trendz-beta.vercel.app/)
 ```shell
 https://trendz-beta.vercel.app/
